@@ -1,0 +1,19 @@
+service: expressjs-serverless-api
+# app: expressjs-serverless-api
+# tenant: tolgaduzenli
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+
+functions:
+  app:
+    handler: app.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
+
+plugins:
+  - serverless-offline
