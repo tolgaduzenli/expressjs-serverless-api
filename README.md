@@ -18,7 +18,7 @@
 * To run offline mode on your local, use `serverless offline start --skipCacheInvalidation`
     1. Go to `http://localhost:3000`
 * To deploy AWS, use `serverless deploy`
-* Ofcourse you need to completed previous steps to deploy AWS. (Create AWS account, User definition by Identity and Access Management, local installation for serverless CLI etc. )
+* Of course you need to complete previous steps to deploy AWS. (Create AWS account, User definition by Identity and Access Management, local installation for serverless CLI etc. )
 * Please follow the instractions from the official [web page](https://serverless.com/blog/serverless-express-rest-api/) of serverless to gather all those things.
 
 ### End point mapping
